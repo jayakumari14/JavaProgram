@@ -1,10 +1,10 @@
-class Round{
+class Table{
 public static void main(String[] args)
 {
-int round=0;
-while(round<10){
-System.out.println("hello"+" " + round);
-round++;
+int i=1;
+while(i<=10){
+System.out.println("2 * "+ i + " " + "=" + " " +  i*2);
+i++;
 }
 }
 }
